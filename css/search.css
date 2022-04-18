@@ -1,0 +1,85 @@
+#Header {
+  padding-bottom: 20px;
+  
+;}
+.navbar-nav { 
+    margin-left: auto; 
+ } 
+
+ .navr-content {
+  padding-right: 30px;
+ }
+
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.nav-link {
+  font-weight: 500;
+    font-size: 16px;
+}
+
+
+#search-cont {
+	padding: 60px 30px 70px 45px !important;
+	background: linear-gradient(#b985df,#b985df);
+	margin: 0 60px !important;
+	text-align: center;
+	border-radius: 35px !important;
+	color: #fff;
+}
+
+.search-cont {
+	text-align: center;
+}
+
+input {
+	margin: 0 !important;
+	width: 22%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding-left: 15px;
+    outline: none; 
+    font-size: 19px !important;
+    padding-bottom: 3px !important;
+}
+
+.card{
+
+	border-radius: 29px !important;
+}
+.card .fa-3x{
+   text-align: center;
+   margin: 20px 0 10px 0;
+}
+
+.card .card-body {
+	margin-top: 7px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+ .card-body .card-text {
+	font-weight: 600;
+}
+
+.list_item {
+	text-align: center;
+    padding: 17px;
+}
+
+#list-div {
+	padding: 20px 30px 0 !important;
+}
+
+table {
+  height: 100px;  
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow-y: auto;    /* Trigger vertical scroll    */
+  overflow-x: hidden;
+  max-height: 300px !important;
+}
+

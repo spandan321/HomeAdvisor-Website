@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+
+
+
+.navbar-nav { 
+    margin-left: auto; 
+ } 
+
+ .navr-content {
+ 	padding-right: 30px;
+ }
+
+
+.nav-item {
+	margin-right: 28px;
+}
+
+.nav-link {
+	font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+/*.container-fluid{
+	height: 400px;
+	
+	background-image: url('../images/hand.jpg');
+	background-repeat: no-repeat;
+	
+}*/
+
+
+
+
+
+
+
+
+
+
+#middle-container {
+	padding: 30px 0px 40px;
+	overflow-x: hidden;
+}
+
+.title {
+	position: absolute;
+    top: 225px !important;
+    left: 530px !important;
+    font-size: 71px;
+    color: #8a8787fa !important;
+}
+.homeservice-img{
+	margin: 0 30px 50px;
+	text-align: center;
+	/*width: 900px;*/
+	width: 1459px !important;
+}
+
+.col-row {
+   background-color: #ebe8e7 !important;
+   padding: 20px 0;
+   border-top-left-radius: 10px !important;
+   border-bottom-left-radius: 10px!important;
+}
+
+.col-row2 {
+   background-color: #ebe8e7 !important;
+   padding: 20px 0;
+   border-top-right-radius: 10px !important;
+   border-bottom-right-radius: 10px !important;
+}
+
+.Elect-img{
+	width: 450px;
+	height: 400px;
+	margin: 10px auto;
+}
+.Plum-img {
+	width: 450px;
+	height: 400px;
+	
+}
+
+.center {
+	text-align: center;
+}
+
+.sub-title {
+	margin: 85px auto ;
+	text-align: center;
+	font-family: 'Londrina Solid', cursive;
+	font-size: 37px;
+	font-weight: 300;
+}
+
+.sub-title1 {
+	text-align: center;
+	font-family: 'Lora', serif;
+	margin: 10px 40px;
+}
+

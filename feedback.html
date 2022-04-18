@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>FEEDBACK FORM</title>
+	<link rel="stylesheet" type="text/css" href="css/feedback.css">
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/10473/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)");
+          window.location = 'index.html'
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+ <div class="row" style="height: 600px; width: 1300px;">
+    <div class="col-lg-6 text">
+       <p class="feed-quote">“We all need people who will give us feedback. That’s how we improve.”</p>
+       <img src="images/feed.png" class="feed-img">
+       <img src="images/disscuss.png" class="discuss-img">
+    </div>
+    <div class="col-lg-6">
+       <div id="wrap">
+       
+       <div id="form-wrap">
+         <form autocomplete="off" id="myForm">
+            <p>HELLO SIR/MADAM,</p>
+            <label>Your Message:</label>
+            <textarea name="Message" id="message" value="Your Message"></textarea>
+            <p>BEST,</p>
+            <label for="name">Name:</label>
+            <input type="text" name="Name" value="" id="name">
+
+            <label for="email">Email:</label>
+            <input type="text" name="Email" value="" id="email" >
+
+            
+         </form>
+         <button type="submit" name="submit"  onclick="SubForm()">SUBMIT</button> 
+       </div>
+   </div>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

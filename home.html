@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Home</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+<section id="button-sec">
+  <div class="button">
+    <button onclick="logOut()" class="click-btn">LOGOUT</button>
+  </div>
+</section>
+   
+<section id="cont-4">
+	<div class="row">
+		<div class="col-lg-3">
+		  <div class="card" style="width: 18rem; background-color: #febaad; color: #fff">
+             <i class="fas fa-3x fa-user-alt" class="card-img-top"></i>
+            <div class="card-body">
+              <h5 class="card-title">70</h5>
+              <p class="card-text">ELECTRICIANS</p>
+              
+            </div>
+          </div>
+		</div>
+		<div class="col-lg-3">
+		  <div class="card" style="width: 18rem; background-color: #f6c800; color: #fff">
+             <i class="fas  fa-3x fa-user-alt" class="card-img-top"></i>
+            <div class="card-body">
+              <h5 class="card-title">80</h5>
+              <p class="card-text">MECHANICS</p>
+              
+            </div>
+          </div>
+		</div>
+		<div class="col-lg-3">
+		  <div class="card" style="width: 18rem; background-color: #85C7C5; color: #fff">
+             <i class="fas fa-3x  fa-user-alt" class="card-img-top"></i>
+            <div class="card-body">
+              <h5 class="card-title">40</h5>
+              <p class="card-text">CARPENTERS</p>
+              
+            </div>
+          </div>
+		</div>
+		<div class="col-lg-3">
+		  <div class="card" style="width: 18rem; background-color: #76b974; color: #fff">
+            <i class="fas fa-3x  fa-user-alt" class="card-img-top"></i>
+            <div class="card-body">
+              <h5 class="card-title">60</h5>
+              <p class="card-text">PLUMBERS</p>
+              
+            </div>
+          </div>
+		</div>
+	</div>
+</section>
+
+<section id="form">
+  <form id="add-worker-data" autocomplete="off">
+
+  <div class="row">
+    <div class="col-lg-6" style="display: flex;">
+      <i class="fas fa-2x fa-user-alt"></i>
+      <input type="text" name="Name" placeholder="Worker name.." class="name" autocomplete="off">
+    </div>
+    <div class="col-lg-6" style="display: flex;">
+      <i class="fas fa-2x fa-user-tie"></i>
+      <input type="text" name="Profession" placeholder="Profession" class="pro" autocomplete="off">
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-lg-6" style="display: flex;">
+      <i class="far fa-2x fa-clock"></i>
+      <input type="number" name="WorkExperience" placeholder="Work Experience" class="experience">
+    </div>
+    <div class="col-lg-6" style="display: flex;">
+       <i class="fas fa-2x fa-city"></i>
+       <input type="text" name="City" placeholder="Worker City.." class="city" autocomplete="off">
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-lg-6" style="display: flex;">
+      <i class="fas fa-2x fa-chart-area"></i>
+       <input type="text" name="Area" placeholder="Workers Area.." class="area" autocomplete="off">
+    </div>
+    <div class="col-lg-6" style="display: flex;">
+      <i class="fas fa-2x fa-phone-alt"></i>
+      <input type="number" name="MobileNumber" placeholder="Mobile Number" class="mb_no">
+    </div>
+  </div> 
+
+    <button type="submit" class="btns" >Add worker <i class="fab fa-telegram-plane"></i></button>
+  </form>
+  
+</section>
+
+
+
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
+
+
+
+
+<script type="text/javascript" src="home.js"></script>
+<script type="text/javascript" src="login.js"></script>
+</body>
+</html>
